@@ -7,6 +7,7 @@ class FeatureFlagHelper {
   static Map<FeatureFlagEnum, String> featureFlags = {
     FeatureFlagEnum.ADD_PEOPLE_ENABLED: 'add-people.enabled',
     FeatureFlagEnum.CALENDAR_ENABLED: 'calendar.enabled',
+    	FeatureFlagEnum.CONFERENCE_TIMER_ENABLED: 'conference-timer.enabled',
     FeatureFlagEnum.CALL_INTEGRATION_ENABLED: 'call-integration.enabled',
     FeatureFlagEnum.CLOSE_CAPTIONS_ENABLED: 'close-captions.enabled',
     FeatureFlagEnum.CHAT_ENABLED: 'chat.enabled',
