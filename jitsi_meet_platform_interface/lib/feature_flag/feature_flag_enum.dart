@@ -9,7 +9,7 @@ enum FeatureFlagEnum {
   /// Flag indicating if calendar integration should be enabled.
   /// Default: enabled (true) on Android, auto-detected on iOS.
   CALENDAR_ENABLED,
-
+  CONFERENCE_TIMER_ENABLED,
   /// Flag indicating if call integration (CallKit on iOS, 
   /// ConnectionService on Android)
   /// should be enabled.
